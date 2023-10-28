@@ -15,7 +15,7 @@ import traceback
 import sys
 import re
 
-backend = CDLL('C:\\Users\\piska\\Downloads\\wpe\\mpv-1.dll')
+backend = CDLL(path.join(getcwd(),'mpv-1.dll'))
 fs_enc = 'utf-8'
 
 class MpvHandle(c_void_p):
