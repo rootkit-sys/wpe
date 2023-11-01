@@ -7,7 +7,7 @@ from warnings import warn
 from sys import stdout
 from time import sleep
 from ctypes import *
-from os import path
+from os import path, getcwd
 import ctypes.util
 import collections
 import threading
